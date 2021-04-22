@@ -4,7 +4,7 @@ with open('./README.md', encoding='UTF-8') as file:
     long_description = file.read()
 
 setup(
-    name='apiService',
+    name='RelayController',
     version='0.1.0',
     python_requires=">=3.9",
     description='Relay controller service based on FastAPI',
