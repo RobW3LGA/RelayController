@@ -13,6 +13,10 @@ setup(
     author='Rob W3LGA',
     author_email='RobW3LGA@github.com',
     install_requires=[
+        'pytest',
+        'pytest-asyncio',
+        'pytest-httpx',
+        'requests',
         'fastapi',
         'first',
         'httpx',
