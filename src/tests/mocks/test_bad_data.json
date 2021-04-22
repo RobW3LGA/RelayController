@@ -1,0 +1,6 @@
+{
+  "input": "badData",
+  "output": {
+    "bad": "data"
+  }
+}

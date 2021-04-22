@@ -1,0 +1,1 @@
+from .api_router_component import invokeApiRoutes

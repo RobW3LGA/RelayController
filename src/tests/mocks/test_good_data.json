@@ -1,0 +1,10 @@
+{
+  "input": "goodData",
+  "output": {
+    "good": "data"
+  },
+  "options": [
+    "good",
+    "data"
+  ]
+}

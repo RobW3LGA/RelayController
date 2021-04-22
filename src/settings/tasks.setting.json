@@ -1,0 +1,27 @@
+{
+  "allowedUsers": [
+    "root"
+  ],
+  "allTasks": [
+    "EmergencyShutdown"
+  ],
+  "tasks": [
+    {
+      "name": "EmergencyShutdown",
+      "relays": [
+        {
+          "name": "DeviceOne",
+          "relay": 1,
+          "enable": "off",
+          "disable": "on"
+        },
+        {
+          "name": "DeviceOne",
+          "relay": 2,
+          "enable": "off",
+          "disable": "on"
+        }
+      ]
+    }
+  ]
+}

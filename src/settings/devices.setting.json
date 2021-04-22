@@ -1,0 +1,61 @@
+{
+  "allRelays": [
+    "PrimaryPump",
+    "BackupPump"
+  ],
+  "devices": [
+    {
+      "name": "DeviceOne",
+      "model": "vm204",
+      "site": "Remote-101",
+      "protocol": "https",
+      "address": "192.168.0.1",
+      "port": 443,
+      "key": "S3cr3tK3y",
+      "relays": [
+        {
+          "relay": 1,
+          "name": "PrimaryPump",
+          "enable": "on",
+          "disable": "off"
+        },
+        {
+          "relay": 2,
+          "name": "BackupPump",
+          "enable": "on",
+          "disable": "off"
+        },
+        {
+          "relay": 3,
+          "name": "unused",
+          "enable": "on",
+          "disable": "off"
+        },
+        {
+          "relay": 4,
+          "name": "unused",
+          "enable": "on",
+          "disable": "off"
+        }
+      ],
+      "inputs": [
+        {
+          "input": 1,
+          "name": "PrimaryOn"
+        },
+        {
+          "input": 2,
+          "name": "BackupOn"
+        },
+        {
+          "input": 3,
+          "name": "PowerFail"
+        },
+        {
+          "input": 4,
+          "name": "GeneratorRun"
+        }
+      ]
+    }
+  ]
+}
